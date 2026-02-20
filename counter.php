@@ -1,7 +1,7 @@
 <?php
     $link = mysqli_connect("localhost","root","1234");
     mysqli_set_charset($link,'utf8');
-    mysqli_query($link,"Use roomๅ1234;");
+    mysqli_query($link,"Use roomๅ12345;");
     $sql = "select * from counter;";
 
     $result = mysqli_query($link,$sql);
